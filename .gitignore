@@ -1,0 +1,16 @@
+# Don't upload datasets
+dogs-vs-cats/
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.pt
+*.pth
+*.onnx
+*.ckpt
+
+# Don't upload virtual envs or other junk
+venv/
+.env/
+*.ipynb_checkpoints/
+__pycache__/
